@@ -1,0 +1,83 @@
+.main {
+  min-height: 93vh;
+  display: flex;
+  align-items: center;
+  background-image: url("../../background1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  position: relative;
+}
+.subtitle {
+  font-size: 20px;
+  padding-top: 10px;
+}
+.intro-text {
+  width: 100%;
+  text-align: center;
+}
+@media screen and (max-width: 390px) {
+  .title {
+    font-size: 25px;
+    margin-top: 130px;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
+  .landingbutton {
+    width: 160px;
+    height: 55px;
+  }
+}
+@media only screen and (min-width: 391px) and (max-width: 1080px) {
+  .title {
+    margin-top: 130px;
+    font-size: 45px;
+  }
+  .subtitle {
+    font-size: 30px;
+  }
+  .landingbutton {
+    width: 160px;
+    height: 55px;
+  }
+}
+
+@media screen and (min-width: 1081px) and (max-width: 1580px) {
+  .title {
+    font-size: 56px;
+  }
+  .subtitle {
+    font-size: 30px;
+  }
+  .landingbutton {
+    width: 160px;
+    height: 55px;
+  }
+}
+@media screen and (min-width: 1581px) {
+  .title {
+    font-size: 75px;
+    margin-top: 130px;
+  }
+  .subtitle {
+    font-size: 30px;
+  }
+  .landingbutton {
+    width: 160px;
+    height: 55px;
+  }
+}
+.buttonContainer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 80px;
+}
+.landingbutton {
+  width: 160px;
+  height: 55px;
+}
